@@ -18,10 +18,10 @@ class UI {
             <span class="badge badge-info">Following: ${user.following}</span>
             <br><br>
             <ul class="list-group">
-              <li class="list-group-item">Company: ${user.company}</li>
-              <li class="list-group-item">Website/Blog: ${user.blog}</li>
-              <li class="list-group-item">Location: ${user.location}</li>
-              <li class="list-group-item">Member Since: ${user.created_at}</li>
+              <li class="list-group-item"><strong>Company: </strong>${user.company}</li>
+              <li class="list-group-item"><strong>Website/Blog: </strong>${user.blog}</li>
+              <li class="list-group-item"><strong>Location: </strong>${user.location}</li>
+              <li class="list-group-item"><strong>Member Since: </strong>${user.created_at}</li>
             </ul>
           </div>
         </div>
